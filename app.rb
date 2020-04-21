@@ -7,6 +7,9 @@ require_relative 'lib/player'
 player1 = Player.new("Josiane")
 player2 = Player.new("José")
 
+
+#VERSION 1.0
+
 while player1.lifepoints > 0 && player2.lifepoints > 0
   puts "---- Voici l'état de chaque joueur ----"
   print player1.show_state
@@ -18,4 +21,3 @@ while player1.lifepoints > 0 && player2.lifepoints > 0
   puts player2.attacks(player1)
 end
 
-#binding.pry
