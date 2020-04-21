@@ -22,6 +22,7 @@ my_game = Game.new(user_name)
 while my_game.is_still_ongoing?
   my_game.start
   my_game.show_players 
+  my_game.new_players_in_sight
   my_game.menu  
   my_game.menu_choice
   my_game.enemies_attack
